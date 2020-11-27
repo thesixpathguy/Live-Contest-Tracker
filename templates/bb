@@ -1,0 +1,9 @@
+ var str=this.attr('enddate');
+                var remy=str.slice(0, 4);
+                var remm=str.slice(5,7);
+                var remd=str.slice(8);
+                var str1=this.attr('endtime');
+                var remh=str.slice(0, 2);
+                var remmi=str.slice(3,5);
+                var rems=str.slice(6);
+        var yourDateToGo = new Date(remy,remm,remd,remh,remmi,rems); //here you're making new Date object
