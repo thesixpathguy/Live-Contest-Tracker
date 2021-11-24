@@ -25,7 +25,7 @@ SECRET_KEY = '5qk*@-a+1z*+s21up$s0z(rrtcxfqpklh&2c=-c-$&*3c^f-50'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','live-contest-tracker.herokuapp.com']
 
 
 # Application definition
