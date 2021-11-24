@@ -11,6 +11,7 @@ def index(request):
     js = json.loads(response.text)
     lst = list()
     lst1 = list()
+    print(js)
     for contest in js:
         temp = dict()
         temp['name'] = contest['name']
